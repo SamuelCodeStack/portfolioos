@@ -1,0 +1,14 @@
+/* This kills the default Vite centering */
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: block; /* Ensures it doesn't try to center your OS */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Fixes the 'OS' feel */
+}
